@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/81301) 
 
+##회고
+딕셔너리를 사용하는게 편해보여서 딕셔너리를 정의하고 시작했다. key와 value를 item에 넣어 인덱싱하여 사용하였는데 좀 헷갈려서 차라리 key, value에 각각 넣어 반복문을 돌리는 게 더 직관적인 코드가 됐을 것 같다. 
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 0.03 ms
