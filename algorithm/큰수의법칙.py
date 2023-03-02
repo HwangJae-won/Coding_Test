@@ -1,4 +1,5 @@
 """
+https://emperor-one-data-study.tistory.com/30
 큰수의 법칙
 주어진 수를 M번 더하여 가장 큰 수를 만드는 법칙
 특정한 인덱스에 해당되는 수가 연속해서 k번 초과해서 더해질 수 없음
