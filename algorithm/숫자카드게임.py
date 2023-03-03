@@ -1,4 +1,5 @@
 """
+https://emperor-one-data-study.tistory.com/31
 Greedy 알고리즘:숫자 카드 게임 
 여러 개의 숫자 카드 중에서 가장 높은 숫자가 쓰인 카드 한 장을 뽑는 게임
 - n*m 형식의 array
