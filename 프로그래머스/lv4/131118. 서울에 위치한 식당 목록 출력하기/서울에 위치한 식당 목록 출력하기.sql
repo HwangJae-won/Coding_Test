@@ -6,4 +6,4 @@ from REST_REVIEW A #REST_REVIEW 테이블을 A이름으로 가져오기
 join REST_INFO B on A.REST_ID = B.REST_ID #rest_id 기준으로 조인
 group by A.REST_ID
 having B.ADDRESS like '서울%' #서울로 시작하는 단어 
-order by SCORE desc, B.FAVORITES desc ; 
+order by SCORE desc, B.FAVORITES desc ;
