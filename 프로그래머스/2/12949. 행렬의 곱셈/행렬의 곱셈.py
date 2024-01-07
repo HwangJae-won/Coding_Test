@@ -9,5 +9,4 @@ def solution(arr1, arr2):
         for j in range(y) :  
             answer[i][j] = sum([a*b for a,b in zip(arr1[i],arr2_T[j])])
            
-            
     return answer
