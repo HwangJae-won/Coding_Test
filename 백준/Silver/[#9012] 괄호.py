@@ -22,7 +22,7 @@ for _ in range(n):
                 is_vps = False
                 break
     if is_vps and not stack:
-        print("NO")
-    else:
         print("YES")
+    else:
+        print("NO")
         
