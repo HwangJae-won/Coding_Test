@@ -8,22 +8,24 @@
 왜 그리디인가? : 최적해가 보장되는 상황이다 !
 1. 각각의 회의 진행 시간이 서로에게 영향을 주지 않음
 2. 각각의 best 배치를 모아 최적 해를 구할 수 있음 
+===
+
+sorted_time_li = [x for x in sorted_time_li if x[0] >= earliest[1]]
+이렇게 하면 매 반복마다 리스트를 생성하므로 시간초과/ 메모리 초과가 발생함
 """
 n = int(input())
-time_li = []
-for _ in range(n):
-    time_li.append(list(map(int, input().split())))
-cnt =0
-sorted_time_li = sorted(time_li, key=lambda x: x[1])
-selected_li = []
-while sorted_time_li:
-    earliest = sorted_time_li[0]
-    selected_li.append(earliest)
+time_li = [list(map(int, input().split())) for _ in range(n)]
 
-    # 현재 선택한 요소의 종료 시간보다 큰 시작 시간을 가진 요소들만 남김
-    sorted_time_li = [x for x in sorted_time_li if x[0] >= earliest[1]]
-    cnt +=1
-    
+# 종료 시간이 같으면 시작 시간이 빠른 순서로 정렬
+sorted_time_li = sorted(time_li, key=lambda x: (x[1], x[0]))
+
+cnt = 0
+last_end_time = 0  # 가장 마지막으로 선택한 종료 시간
+
+for start, end in sorted_time_li:
+    if start >= last_end_time:  # 종료 시간 이후에 시작하는 회의만 선택
+        cnt += 1
+        last_end_time = end  # 종료 시간 업데이트
+
 # 결과 출력
-print(selected_li )
 print(cnt)
