@@ -12,6 +12,9 @@
 
 sorted_time_li = [x for x in sorted_time_li if x[0] >= earliest[1]]
 이렇게 하면 매 반복마다 리스트를 생성하므로 시간초과/ 메모리 초과가 발생함
+
+===
+나중에 다시 풀어보자..
 """
 n = int(input())
 time_li = [list(map(int, input().split())) for _ in range(n)]
