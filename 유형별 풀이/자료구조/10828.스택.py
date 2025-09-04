@@ -22,6 +22,7 @@ top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들
 import sys
 input = sys.stdin.readline #백준같은 환경에서는 입출력 속도 위해 정의해줄 것.
 
+
 n  = int(input())
 stack =[]
 for _ in range(n):
