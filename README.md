@@ -14,6 +14,4 @@
 ## 유형별 풀이
 ### 자료구조
 - [10828 Stack](https://www.acmicpc.net/problem/10828) | 📅 2025-09-04 | ✅ First Attempt
-
-### 자료구조
 - [10845 Queue](https://www.acmicpc.net/problem/10845) | 📅 2025-09-05 | ✅ First Attempt
