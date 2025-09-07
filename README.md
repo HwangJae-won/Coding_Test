@@ -18,4 +18,5 @@
 
 ### 문자열 
 - [4659 pronounce](https://www.acmicpc.net/problem/4659) | 📅 2025-09-07 | ✅ First Attempt
-- [11720pronounce](https://www.acmicpc.net/problem/11720) | 📅 2025-09-07 | ✅ Second Attempt
+- [11720 sum of number](https://www.acmicpc.net/problem/11720) | 📅 2025-09-07 | ✅ Review 
+- [9046 change word](https://www.acmicpc.net/problem/9046) | 📅 2025-09-07 | ✅ Review 
