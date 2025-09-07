@@ -15,3 +15,6 @@
 ### 자료구조
 - [10828 Stack](https://www.acmicpc.net/problem/10828) | 📅 2025-09-04 | ✅ First Attempt
 - [10845 Queue](https://www.acmicpc.net/problem/10845) | 📅 2025-09-05 | ✅ First Attempt
+
+### 문자열 
+- [4659 pronounce](https://www.acmicpc.net/problem/4659) | 📅 2025-09-07 | ✅ First Attempt
